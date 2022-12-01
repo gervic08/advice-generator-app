@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  background-color: #2b3240;
+  width: 90em;
+  max-width: 100%;
+  justify-content: center; }
+  .container .card {
+    display: flex;
+    position: relative;
+    background-color: #394556;
+    border-radius: 0.5em;
+    width: 25em;
+    max-width: 100%;
+    height: 16em;
+    max-height: max-content;
+    margin: 10em 2em;
+    box-shadow: 0.4em 0.2em 2em -1em black;
+    justify-content: center; }
+    .container .card .text {
+      margin-left: 2em;
+      margin-right: 2em;
+      display: flex;
+      flex-direction: column; }
+      .container .card .text p {
+        text-align: center;
+        font-family: "Manrope";
+        font-weight: 800; }
+      .container .card .text p.advice-title {
+        font-size: .5em;
+        color: #52ffa8;
+        margin-top: 5em;
+        letter-spacing: 0.3em; }
+      .container .card .text p.advice-text {
+        font-size: 1em;
+        width: 100%;
+        color: #cee3e9;
+        text-justify: auto; }
+    .container .card .footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 3em;
+      position: absolute;
+      bottom: 2em !important; }
+      .container .card .footer img.pattern-divider {
+        align-self: center;
+        width: 23em;
+        max-width: 90%; }
+      .container .card .footer .button {
+        align-self: center;
+        background-color: #52ffa8;
+        border-radius: 50%;
+        border: none !important;
+        width: 3.5em;
+        height: 3.5em;
+        background-image: url(./images/icon-dice.svg);
+        background-size: 37%;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 2.5em;
+        margin-bottom: -5em; }
+      .container .card .footer .button:hover {
+        cursor: pointer;
+        box-shadow: 0em 0em 2.5em 0.2em #52ffa8; }
+
+.attribution {
+  align-self: center;
+  font-size: 0.69em; }
+  .attribution a {
+    color: #3e52a3; }
+
+/*# sourceMappingURL=advice-generator.css.map */
